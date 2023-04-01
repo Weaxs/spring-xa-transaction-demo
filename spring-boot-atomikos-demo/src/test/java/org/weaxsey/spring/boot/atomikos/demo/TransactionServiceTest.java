@@ -3,19 +3,18 @@
  *
  */
 
+package org.weaxsey.spring.boot.atomikos.demo;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.TestPropertySource;
-import org.weaxsey.spring.boot.atomikos.demo.Application;
 import org.weaxsey.spring.boot.atomikos.demo.domain.buyer.Buyer;
 import org.weaxsey.spring.boot.atomikos.demo.domain.seller.Seller;
 import org.weaxsey.spring.boot.atomikos.demo.repository.buyer.BuyerRepository;
 import org.weaxsey.spring.boot.atomikos.demo.repository.seller.SellerRepository;
 import org.weaxsey.spring.boot.atomikos.demo.service.TransactionService;
-
-import java.util.Optional;
 
 
 @TestPropertySource("classpath:application.yml")
