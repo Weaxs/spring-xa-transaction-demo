@@ -41,11 +41,11 @@ public class ExternalServiceTest {
     static void init() {
         BUYER_PROPS.setProperty(DB_URL_FIELD, "jdbc:mysql://localhost:3306/buyer");
         BUYER_PROPS.setProperty(DB_USER_FIELD, "root");
-        BUYER_PROPS.setProperty(DB_PASSWORD_FIELD, "12345678");
+        BUYER_PROPS.setProperty(DB_PASSWORD_FIELD, "");
 
         SELLER_PROPS.setProperty(DB_URL_FIELD, "jdbc:mysql://localhost:3306/seller");
         SELLER_PROPS.setProperty(DB_USER_FIELD, "root");
-        SELLER_PROPS.setProperty(DB_PASSWORD_FIELD, "12345678");
+        SELLER_PROPS.setProperty(DB_PASSWORD_FIELD, "");
     }
 
     @Test
