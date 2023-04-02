@@ -9,7 +9,9 @@ Referenced from [Distributed transactions with multiple databases, Spring Boot, 
 Referenced from [Using an external connection pool with TransactionsEssentials®](https://www.atomikos.com/Documentation/ExternalConnectionPool)
 
 
-## Atomikos
-
+## Atomikos with multitple threads
 
 [Multiple threads working on a single transaction](https://fogbugz.atomikos.com/default4b3f.html?community.6.803.3)
+
+## Bitronix wiki
+[Bitronix Wiki Home](https://github.com/bitronix/btm/wiki)
